@@ -5,9 +5,6 @@ Posts to Slack the currently active AWS EC2 instances in all regions.
 
 Lambda function included
 
-```
-$ aws lambda update-function-code --function-name ec2-instances-running --zip-file fileb://ec2slack.zip
-```
 
 ### Requirements
 
