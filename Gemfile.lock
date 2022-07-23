@@ -1,11 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.2)
+    activesupport (7.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (>= 0.7, < 2)
-      minitest (~> 5.1)
-      tzinfo (~> 1.1)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
     aws-eventstream (1.0.1)
     aws-partitions (1.129.0)
     aws-sdk-core (3.44.2)
@@ -17,17 +17,17 @@ GEM
       aws-sdk-core (~> 3, >= 3.39.0)
       aws-sigv4 (~> 1.0)
     aws-sigv4 (1.0.3)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.10)
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     faraday_middleware (0.12.2)
       faraday (>= 0.7.4, < 1.0)
     gli (2.18.0)
     hashie (3.6.0)
-    i18n (1.5.1)
+    i18n (1.12.0)
       concurrent-ruby (~> 1.0)
     jmespath (1.4.0)
-    minitest (5.11.3)
+    minitest (5.16.2)
     multipart-post (2.0.0)
     slack-ruby-client (0.13.1)
       activesupport
@@ -36,9 +36,8 @@ GEM
       gli
       hashie
       websocket-driver
-    thread_safe (0.3.6)
-    tzinfo (1.2.5)
-      thread_safe (~> 0.1)
+    tzinfo (2.0.5)
+      concurrent-ruby (~> 1.0)
     websocket-driver (0.7.0)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.3)
